@@ -28,12 +28,7 @@ Large Language Models (LLMs) have made it increasingly difficult to distinguish 
 
 While performance is strong in attribution and source detection, results highlight the **limitation of current detectors** when facing layered or paraphrased LLM outputs.
 
-## Conclusion
 
-PLD-4 offers a structured benchmark for understanding and improving the robustness of LLM-generated content detection—paving the way for better safeguards against AI misuse in real-world applications.
 
-## Citation
-
-If you use PLD-4, please cite:
 
 
