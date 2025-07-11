@@ -1,4 +1,5 @@
 # PLD-4: A Multi-Task Framework for Detecting and Attributing LLM-Generated Paraphrases
+![PLD-4 Framework](./PLD-Framework.png)
 
 ## Overview
 
