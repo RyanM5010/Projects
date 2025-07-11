@@ -6,6 +6,10 @@ The rapid advancement of Large Language Models (LLMs) has made it increasingly d
 
 To address this, we introduce the **Paraphrase-based LLM Detection Framework (PLD-4)**, a novel benchmark that formalizes LLM-generated paraphrase detection into four distinct subtasks. These tasks are designed to evaluate detection methods across realistic and challenging scenarios, including the identification of **layered AI-generated content**.
 
+## 🖼️ Framework Overview
+
+![PLD-Framework](PLD-Framework.png)
+
 ---
 
 ## 🛠️ Methodology
@@ -67,11 +71,6 @@ The **PLD-4 framework** establishes a structured benchmark for detecting and att
 
 ---
 
-## 🖼️ Framework Overview
-
-![PLD-Framework](PLD-Framework.png)
-
----
 
 
 
