@@ -48,20 +48,20 @@ We fine-tuned **DeBERTa-v3** and **RoBERTa** for single-sentence classification 
 
 Our experiments reveal both strengths and limitations of current detection techniques:
 
-### Task 1: Sentence Pair Paraphrase Source Detection (SP-PSD)
+### Task 1: Sentence Pair Paraphrase Detection 
 - **Model**: XGBoost
 - **Accuracy**: 96%
 - **AUROC**: 0.9876 (on adapted MRPC)
 
-### Task 2: Sentence Pair Paraphrase Authorship Attribution (SP-PAA)
-- **Model**: XGBoost / RoBERTa
-- **Accuracy**: High accuracy with balanced interpretability and performance
+### Task 2: Single Sentence Paraphraser Detection
+- **Model**: RoBERTa
+- **Accuracy**: 92.44%
 
-### Task 3: Single Sentence Authorship Attribution (SS-AA)
+### Task 3: Single Sentence Authorship Attribution
 - **Model**: RoBERTa
 - **Accuracy**: 93.94%
 
-### Task 4: Original vs. Paraphrased LLM Output (Para-LLM-Disc)
+### Task 4: Single Sentence AI Authorship Attribution
 - **Model**: RoBERTa
 - **Accuracy**: 83.28%
 - This task was the most challenging, demonstrating the difficulty of detecting **layered AI generation**.
