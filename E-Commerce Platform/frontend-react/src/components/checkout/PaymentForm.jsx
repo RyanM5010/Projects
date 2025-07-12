@@ -10,14 +10,30 @@ const PaymentForm = ({clientSecret, totalPrice}) => {
     const [errorMessage, setErrorMessage] = useState("");
 
     const handleSubmit = async (e) => {
+        e.preventDefault();
+        if (!stripe || !elements){
+            return;
+        }
+        const { error : submitError } = await elements.submit();
+        const { error } = await stripe.confirmPayment({
+            elements,
+            clientSecret,
+            confirmParams:{
+                return_url: `${import.meta.env.VITE_FRONTEND_URL}/order-confirm`,
+            },
+        });
 
+        if (error) {
+            setErrorMessage(error.message);
+            return false; 
+        }
     };
 
     const paymentElementOptions = {
         layout:"tabs",
     }
-    const isLoading = !clientSecret || !stripe;
-
+    const isLoading = !clientSecret || !stripe|| !elements;
+    
   return (
     <form onSubmit={handleSubmit} className='max-w-lg mx-auto p-4'>
         <h2 className='text-xl font-semibold mb-4'>Payment Information</h2>

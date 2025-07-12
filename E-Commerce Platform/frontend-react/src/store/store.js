@@ -13,8 +13,12 @@ const user = localStorage.getItem("auth")
     ? JSON.parse(localStorage.getItem("auth"))
     : null;    
 
+const selectedUserCheckoutAddress = localStorage.getItem("CHECKTOUT_ADDRESS")
+    ? JSON.parse(localStorage.getItem("CHECKTOUT_ADDRESS"))
+    : [];
+
 const initialState = {
-    auth: { user: user },
+    auth: { user: user, selectedUserCheckoutAddress},
     carts:{ cart: cartItems },
 };
 

@@ -43,7 +43,7 @@ const Home = () => {
                 ) : (
             <div className="pb-6 pt-14 grid 2xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 gap-y-6 gap-x-6">
                        {products && 
-                       products?.slice(0,4)
+                       products?.slice(0,3)
                                 .map((item, i) => <ProductCard key={i} {...item} />
                         )}
                     </div>
