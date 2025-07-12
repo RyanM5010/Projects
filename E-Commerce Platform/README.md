@@ -20,14 +20,15 @@ Here are some UI previews of the final product:
 |------------------|------------------------------------------------------|
 | Home Page        | ![Home](./images/homePage.png)                  |
 | Product Listing  | ![Products](./images/products.png)              |
-| Cart / Checkout  | ![Checkout](./images/checkout.png)              |
-| Payment Method   | ![Payment](./images/paymentMethod.png)          |
-| Order Success    | ![Order Success](./images/orderSuccess.png)     |
-| Login            | ![Login](./images/logIn.png)                    |
-| Address Select   | ![Address](./images/address.png)                |
-| About / Contact  | ![About](./images/about.png) ![Contact](./images/contact.png) |
-| Stripe Integration | ![Stripe](./images/stripe.png)               |
 | Sort Component   | ![Sort](./images/sort.png)                      |
+| About / Contact  | ![About](./images/about.png) ![Contact](./images/contact.png) |
+| Login            | ![Login](./images/logIn.png)                    |
+| Cart / Checkout  | ![Checkout](./images/checkout.png)              |
+| Address Select   | ![Address](./images/address.png)                |
+| Payment Method   | ![Payment](./images/paymentMethod.png)          |
+| Stripe Integration | ![Stripe](./images/stripe.png)                |
+| Order Success    | ![Order Success](./images/orderSuccess.png)     |
+
 
 ### 📦 Tech Stack
 
