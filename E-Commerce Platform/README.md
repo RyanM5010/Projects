@@ -18,7 +18,7 @@ Here are some UI previews of the final product:
 
 | Page             | Preview                                              |
 |------------------|------------------------------------------------------|
-| Home Page        | ![Home](./E-Commerce/images/homePage.png)                  |
+| Home Page        | ![Home](./images/homePage.png)                  |
 | Product Listing  | ![Products](./e-commerce/images/products.png)              |
 | Cart / Checkout  | ![Checkout](./e-commerce/images/checkout.png)              |
 | Payment Method   | ![Payment](./e-commerce/images/paymentMethod.png)          |
