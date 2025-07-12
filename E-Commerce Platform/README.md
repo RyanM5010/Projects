@@ -52,7 +52,7 @@ Here are some UI previews of the final product:
 - **Spring Security** with **JWT** for stateless authentication and authorization
 - **Spring Data JPA + Hibernate** for ORM and repository abstraction
 - **RESTful API** design using Spring MVC
-- **MySQL / PostgreSQL** database support *(MySQL used in dev, optional RDS in prod)*
+- **MySQL / PostgreSQL** database support *(PostgreSQL used in dev, optional RDS in prod)*
 - **Stripe Java SDK** for secure server-side payment verification
 - **Exception Handling** with global `@ControllerAdvice` and custom responses
 
