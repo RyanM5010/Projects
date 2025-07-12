@@ -29,8 +29,10 @@ Here are some UI previews of the final product:
 | Login            | ![Login](./images/logIn.png)                    |
 | Cart / Checkout  | ![Checkout](./images/checkout.png)              |
 | Address Select   | ![Address](./images/address.png)                |
+| Address Update   | ![AddressUpdate](./images/addressUpdate.png)    |
 | Payment Method   | ![Payment](./images/paymentMethod.png)          |
 | Stripe Integration | ![Stripe](./images/stripe.png)                |
+| Order Summary    | ![Summary](./images/orderSummary.png)           |
 | Order Success    | ![Order Success](./images/orderSuccess.png)     |
 
 ---
