@@ -19,15 +19,15 @@ Here are some UI previews of the final product:
 | Page             | Preview                                              |
 |------------------|------------------------------------------------------|
 | Home Page        | ![Home](./images/homePage.png)                  |
-| Product Listing  | ![Products](./e-commerce/images/products.png)              |
-| Cart / Checkout  | ![Checkout](./e-commerce/images/checkout.png)              |
-| Payment Method   | ![Payment](./e-commerce/images/paymentMethod.png)          |
-| Order Success    | ![Order Success](./e-commerce/images/orderSuccess.png)     |
-| Login            | ![Login](./e-commerce/images/logIn.png)                    |
-| Address Select   | ![Address](./e-commerce/images/address.png)                |
-| About / Contact  | ![About](./e-commerce/images/about.png) ![Contact](./e-commerce/images/contact.png) |
-| Stripe Integration | ![Stripe](./e-commerce/images/stripe.png)               |
-| Sort Component   | ![Sort](./e-commerce/images/sort.png)                      |
+| Product Listing  | ![Products](./images/products.png)              |
+| Cart / Checkout  | ![Checkout](./images/checkout.png)              |
+| Payment Method   | ![Payment](./images/paymentMethod.png)          |
+| Order Success    | ![Order Success](./images/orderSuccess.png)     |
+| Login            | ![Login](./images/logIn.png)                    |
+| Address Select   | ![Address](./images/address.png)                |
+| About / Contact  | ![About](./images/about.png) ![Contact](./images/contact.png) |
+| Stripe Integration | ![Stripe](./images/stripe.png)               |
+| Sort Component   | ![Sort](./images/sort.png)                      |
 
 ### 📦 Tech Stack
 
