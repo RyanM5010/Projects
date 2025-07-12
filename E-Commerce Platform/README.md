@@ -4,13 +4,13 @@ This project is a full-featured e-commerce web application built with Spring Boo
 
 ### ✅ Key Features
 
-- 🔐 User Sign Up / Login with JWT authentication  
+- 🔐 User Sign In and Sign Up / Login with JWT authentication  
 - 🛍️ Product Listing with Sorting and Filtering  
 - 📦 Add to Cart and Cart Quantity Management  
 - 🚚 Address Selection at Checkout  
 - 💳 Stripe Payment Integration  
 - 🧾 Order Summary and Success Page  
-- 🧑‍💼 Admin Panel for Product Management *(optional)*
+- 🧑‍💼 Admin Panel for Product Management 
 
 ### 🖼️ Screenshots
 
