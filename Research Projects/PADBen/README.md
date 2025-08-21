@@ -1,1 +1,1 @@
-# PADBen A Comprehensive Benchmark for Evaluating AI Text Detectors Against Paraphrase Attacks
+# PADBen: A Comprehensive Benchmark for Evaluating AI Text Detectors Against Paraphrase Attacks
