@@ -1,0 +1,2 @@
+model,task,accuracy,precision,recall,f1,auroc,tpr_1_fpr,tpr_5_fpr,tpr_10_fpr,total_samples,errors,payment_errors
+Gemma-3-27B,task2_sampling_20_80,0.473,0.640966704144449,0.473,0.5256279918575001,0.4375,0.007989276139410188,0.039946380697050934,0.07989276139410187,3000,0,0

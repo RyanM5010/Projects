@@ -1,0 +1,72 @@
+{
+  "task_name": "task5: Original vs Deep Paraphrase Attack",
+  "task_description": "Original vs Deep Paraphrase Attack",
+  "task_file": "../../../tasks/single-sentence/exhaustive_method/task5/task5_original_vs_deep_paraphrase_attack.json",
+  "total_samples": 32466,
+  "evaluation_time_seconds": 620.0288109779358,
+  "samples_per_second": 52.36208289868538,
+  "detector_threshold": 0.9015310749276843,
+  "detector_mode": "accuracy",
+  "label_distribution": {
+    "human_count": 16233,
+    "ai_count": 16233,
+    "human_percentage": 50.0,
+    "ai_percentage": 50.0
+  },
+  "accuracy": 0.48928109406764,
+  "precision_human": 0.49376612209802234,
+  "precision_ai": 0.46179183135704877,
+  "recall_human": 0.8490112733321012,
+  "recall_ai": 0.1295509148031787,
+  "f1_human": 0.6243968739381583,
+  "f1_ai": 0.20233799971135807,
+  "macro_precision": 0.47777897672753555,
+  "macro_recall": 0.48928109406764,
+  "macro_f1": 0.4133674368247582,
+  "roc_auc": 0.42818174739279347,
+  "tpr_at_1_fpr": 0.009486847779215178,
+  "tpr_at_5_fpr": 0.0474342388960759,
+  "tpr_at_10_fpr": 0.08692170270436765,
+  "confusion_matrix": [
+    [
+      13782,
+      2451
+    ],
+    [
+      14130,
+      2103
+    ]
+  ],
+  "classification_report": {
+    "Human": {
+      "precision": 0.49376612209802234,
+      "recall": 0.8490112733321012,
+      "f1-score": 0.6243968739381583,
+      "support": 16233.0
+    },
+    "AI": {
+      "precision": 0.46179183135704877,
+      "recall": 0.1295509148031787,
+      "f1-score": 0.20233799971135807,
+      "support": 16233.0
+    },
+    "accuracy": 0.48928109406764,
+    "macro avg": {
+      "precision": 0.47777897672753555,
+      "recall": 0.48928109406764,
+      "f1-score": 0.4133674368247582,
+      "support": 32466.0
+    },
+    "weighted avg": {
+      "precision": 0.4777789767275355,
+      "recall": 0.48928109406764,
+      "f1-score": 0.4133674368247582,
+      "support": 32466.0
+    }
+  },
+  "task_id": "task5",
+  "model_size": "large",
+  "method": "exhaustive_method",
+  "ratio": null,
+  "challenge_type": "single-sentence"
+}

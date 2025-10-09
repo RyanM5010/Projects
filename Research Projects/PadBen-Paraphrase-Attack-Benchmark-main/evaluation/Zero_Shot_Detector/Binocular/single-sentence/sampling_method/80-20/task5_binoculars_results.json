@@ -1,0 +1,72 @@
+{
+  "task_name": "task5: Original vs Deep Paraphrase Attack",
+  "task_description": "Original vs Deep Paraphrase Attack",
+  "task_file": "../../../tasks/single-sentence/sampling_method/80-20/task5/dynamic_task5_original_vs_deep_paraphrase_attack.json",
+  "total_samples": 16233,
+  "evaluation_time_seconds": 159.48975086212158,
+  "samples_per_second": 101.7808348953619,
+  "detector_threshold": 0.9015310749276843,
+  "detector_mode": "accuracy",
+  "label_distribution": {
+    "human_count": 3247,
+    "ai_count": 12986,
+    "human_percentage": 20.00246411630629,
+    "ai_percentage": 79.99753588369371
+  },
+  "accuracy": 0.27598102630444155,
+  "precision_human": 0.19785450412048877,
+  "precision_ai": 0.7858136300417247,
+  "recall_human": 0.8577148136741608,
+  "recall_ai": 0.1305251809641152,
+  "f1_human": 0.321537839866074,
+  "f1_ai": 0.2238658125866737,
+  "macro_precision": 0.4918340670811067,
+  "macro_recall": 0.494119997319138,
+  "macro_f1": 0.27270182622637384,
+  "roc_auc": 0.43895892527599906,
+  "tpr_at_1_fpr": 0.011935931002618205,
+  "tpr_at_5_fpr": 0.052749114430925614,
+  "tpr_at_10_fpr": 0.09225319574926845,
+  "confusion_matrix": [
+    [
+      2785,
+      462
+    ],
+    [
+      11291,
+      1695
+    ]
+  ],
+  "classification_report": {
+    "Human": {
+      "precision": 0.19785450412048877,
+      "recall": 0.8577148136741608,
+      "f1-score": 0.321537839866074,
+      "support": 3247.0
+    },
+    "AI": {
+      "precision": 0.7858136300417247,
+      "recall": 0.1305251809641152,
+      "f1-score": 0.2238658125866737,
+      "support": 12986.0
+    },
+    "accuracy": 0.27598102630444155,
+    "macro avg": {
+      "precision": 0.4918340670811067,
+      "recall": 0.494119997319138,
+      "f1-score": 0.27270182622637384,
+      "support": 16233.0
+    },
+    "weighted avg": {
+      "precision": 0.6682073168607814,
+      "recall": 0.27598102630444155,
+      "f1-score": 0.24340262479490463,
+      "support": 16233.0
+    }
+  },
+  "task_id": "task5",
+  "model_size": "large",
+  "method": "sampling_method",
+  "ratio": "80-20",
+  "challenge_type": "single-sentence"
+}

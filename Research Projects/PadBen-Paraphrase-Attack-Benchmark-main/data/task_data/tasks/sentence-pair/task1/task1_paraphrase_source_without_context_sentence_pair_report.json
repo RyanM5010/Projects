@@ -1,0 +1,19 @@
+{
+  "task_name": "Paraphrase Source Attribution without Context (Sentence Pair)",
+  "input_samples": 16233,
+  "output_samples": 16233,
+  "expansion_ratio": 1.0,
+  "label_distribution": {
+    "label_0_count": 8081,
+    "label_1_count": 8152,
+    "label_0_ratio": 0.49781309677816793,
+    "label_1_ratio": 0.502186903221832
+  },
+  "text_length_statistics": {
+    "min_length": 18,
+    "max_length": 3119,
+    "avg_length": 116.28827080638206,
+    "median_length": 109
+  },
+  "validation_status": "PASSED"
+}

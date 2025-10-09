@@ -1,0 +1,2 @@
+model,task,accuracy,precision,recall,f1,auroc,tpr_1_fpr,tpr_5_fpr,tpr_10_fpr,total_samples,errors,payment_errors
+Llama-4-Scout-17B,task4_sentence_pair,0.492,0.4889090050266074,0.492,0.44350010289372177,0.492787504266697,0.009820255284459192,0.04910127642229596,0.09820255284459192,3000,0,0

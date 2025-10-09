@@ -1,0 +1,106 @@
+================================================================================
+ENHANCED SEMANTIC SPACE EXPERIMENT SUMMARY REPORT
+================================================================================
+
+EXPERIMENT CONFIGURATION:
+  - Number of samples per type: 100
+  - Maximum iterations: 5
+  - Paraphrase model: Qwen/Qwen2.5-3B-Instruct
+  - Embedding model: baai/bge-m3
+
+PCA ANALYSIS RESULTS:
+
+HIDDEN STATES:
+  TYPE1:
+    - PC1 explains 4.7% of variance
+    - PC2 explains 3.8% of variance
+    - Total variance explained: 8.4%
+  TYPE2:
+    - PC1 explains 5.1% of variance
+    - PC2 explains 3.9% of variance
+    - Total variance explained: 9.0%
+
+EMBEDDINGS:
+  TYPE1:
+    - PC1 explains 3.3% of variance
+    - PC2 explains 3.2% of variance
+    - Total variance explained: 6.5%
+  TYPE2:
+    - PC1 explains 4.0% of variance
+    - PC2 explains 3.1% of variance
+    - Total variance explained: 7.0%
+
+CENTER MOVEMENT ANALYSIS:
+
+HIDDEN STATES:
+  TYPE1:
+    - Total centroid movement: 1.3029
+    - Average step size: 0.3257
+    - Maximum step size: 0.5082
+    - Movement trend: decreasing (slope: -0.0632)
+  TYPE2:
+    - Total centroid movement: 1.3225
+    - Average step size: 0.3306
+    - Maximum step size: 0.5813
+    - Movement trend: decreasing (slope: -0.0959)
+
+EMBEDDINGS:
+  TYPE1:
+    - Total centroid movement: 0.6765
+    - Average step size: 0.1691
+    - Maximum step size: 0.2939
+    - Movement trend: decreasing (slope: -0.0356)
+  TYPE2:
+    - Total centroid movement: 0.7076
+    - Average step size: 0.1769
+    - Maximum step size: 0.3247
+    - Movement trend: decreasing (slope: -0.0367)
+
+ITERATION DISTANCE ANALYSIS:
+
+HIDDEN STATES:
+  TYPE1:
+    - Sequential distances: ['0.5082', '0.2797', '0.1863', '0.3286']
+    - Average sequential distance: 0.3257
+    - Maximum sequential distance: 0.5082
+    - Minimum sequential distance: 0.1863
+    - Distance trend: decreasing (slope: -0.0632)
+  TYPE2:
+    - Sequential distances: ['0.3735', '0.5813', '0.1804', '0.1874']
+    - Average sequential distance: 0.3306
+    - Maximum sequential distance: 0.5813
+    - Minimum sequential distance: 0.1804
+    - Distance trend: decreasing (slope: -0.0959)
+
+EMBEDDINGS:
+  TYPE1:
+    - Sequential distances: ['0.2939', '0.1226', '0.0657', '0.1943']
+    - Average sequential distance: 0.1691
+    - Maximum sequential distance: 0.2939
+    - Minimum sequential distance: 0.0657
+    - Distance trend: decreasing (slope: -0.0356)
+  TYPE2:
+    - Sequential distances: ['0.1920', '0.3247', '0.0197', '0.1712']
+    - Average sequential distance: 0.1769
+    - Maximum sequential distance: 0.3247
+    - Minimum sequential distance: 0.0197
+    - Distance trend: decreasing (slope: -0.0367)
+
+TRAJECTORY ANALYSIS INTERPRETATION:
+
+The trajectory analysis shows how text samples move through semantic space
+across paraphrasing iterations. Key insights:
+
+1. CENTROID MOVEMENT:
+   - Tracks how the 'center of mass' of each iteration shifts
+   - Large movements indicate significant semantic drift
+   - Consistent direction suggests systematic bias in paraphrasing
+
+2. DISTANCE ANALYSIS:
+   - Sequential distances show step-by-step semantic changes
+   - Increasing trend suggests accelerating semantic drift
+   - Decreasing trend suggests convergence to a stable state
+
+3. VARIANCE EXPLAINED:
+   - Higher PC1/PC2 variance indicates more structured semantic space
+   - Low variance suggests high-dimensional, complex relationships

@@ -1,0 +1,70 @@
+{
+  "task_name": "task2: General Text Authorship Detection (Sentence-Pair)",
+  "task_description": "General Text Authorship Detection - Sentence Pair Detection",
+  "task_file": "../../../tasks/sentence-pair/task2/temp_task2_general_text_authorship_detection_sentence_pair.json",
+  "total_samples": 16233,
+  "evaluation_time_seconds": 555.9658203125,
+  "samples_per_second": 29.197838080901583,
+  "detector_threshold": 0.9015310749276843,
+  "detector_mode": "accuracy",
+  "label_distribution": {
+    "human_count": 8081,
+    "ai_count": 8152,
+    "human_percentage": 49.78130967781679,
+    "ai_percentage": 50.2186903221832
+  },
+  "accuracy": 0.4886958664448962,
+  "precision_human": 0.4925787868519146,
+  "precision_ai": 0.44993234100135315,
+  "recall_human": 0.8993936394010642,
+  "recall_ai": 0.08157507360157017,
+  "f1_human": 0.6365387983885094,
+  "f1_ai": 0.13811007268951195,
+  "macro_precision": 0.47125556392663387,
+  "macro_recall": 0.49048435650131716,
+  "macro_f1": 0.38732443553901064,
+  "roc_auc": 0.457455587374108,
+  "tpr_at_1_fpr": 0.00662414131501472,
+  "tpr_at_5_fpr": 0.037414131501472034,
+  "tpr_at_10_fpr": 0.08096172718351324,
+  "confusion_matrix": [
+    [
+      7268,
+      813
+    ],
+    [
+      7487,
+      665
+    ]
+  ],
+  "classification_report": {
+    "Human": {
+      "precision": 0.4925787868519146,
+      "recall": 0.8993936394010642,
+      "f1-score": 0.6365387983885094,
+      "support": 8081.0
+    },
+    "AI": {
+      "precision": 0.44993234100135315,
+      "recall": 0.08157507360157017,
+      "f1-score": 0.13811007268951195,
+      "support": 8152.0
+    },
+    "accuracy": 0.4886958664448962,
+    "macro avg": {
+      "precision": 0.47125556392663387,
+      "recall": 0.49048435650131716,
+      "f1-score": 0.38732443553901064,
+      "support": 16233.0
+    },
+    "weighted avg": {
+      "precision": 0.47116230027680356,
+      "recall": 0.4886958664448962,
+      "f1-score": 0.38623442015292586,
+      "support": 16233.0
+    }
+  },
+  "task_id": "task2",
+  "model_size": "large",
+  "challenge_type": "sentence-pair"
+}

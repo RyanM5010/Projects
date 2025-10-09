@@ -1,0 +1,21 @@
+{
+  "type_mapping": {
+    "0": "type1",
+    "1": "type2",
+    "2": "type4"
+  },
+  "num_samples": 48699,
+  "pca_shape": [
+    48699,
+    2
+  ],
+  "umap_shape": [
+    48699,
+    2
+  ],
+  "tsne_shape": [
+    48699,
+    2
+  ],
+  "kmeans_clusters": 3
+}

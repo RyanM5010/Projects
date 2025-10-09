@@ -1,0 +1,28 @@
+{
+  "task_name": "Paraphrase Source Attribution without Context",
+  "processing_summary": {
+    "input_samples": 16233,
+    "output_samples": 32466,
+    "expansion_ratio": 2.0
+  },
+  "label_distribution": {
+    "1": 16233,
+    "0": 16233
+  },
+  "label_balance": {
+    "balance_ratio": 0.0,
+    "is_balanced": true
+  },
+  "source_distribution": {
+    "mrpc": 3750,
+    "hlpc": 380,
+    "paws": 12103
+  },
+  "text_statistics": {
+    "min_length": 18,
+    "max_length": 3119,
+    "avg_length": 116.28827080638206,
+    "median_length": 109
+  },
+  "validation_status": "passed"
+}

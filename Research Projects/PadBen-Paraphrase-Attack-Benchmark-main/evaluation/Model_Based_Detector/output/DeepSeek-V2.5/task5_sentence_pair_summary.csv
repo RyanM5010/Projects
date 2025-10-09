@@ -1,0 +1,2 @@
+model,task,accuracy,precision,recall,f1,auroc,tpr_1_fpr,tpr_5_fpr,tpr_10_fpr,total_samples,errors,payment_errors
+DeepSeek-V2.5,task5_sentence_pair,0.484,0.48227534621935864,0.484,0.4732254101039148,0.48371393485573944,0.009127345600291494,0.04563672800145747,0.09127345600291493,3000,0,0

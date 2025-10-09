@@ -1,0 +1,106 @@
+{
+  "pipeline_status": "completed",
+  "input_samples": 16233,
+  "total_output_samples": 81165,
+  "tasks_processed": 5,
+  "tasks_failed": 0,
+  "pipeline_time": 0.22779417037963867,
+  "config": {
+    "random_seed": 42,
+    "label_1_ratio": 0.8,
+    "input_file": "../../data/test/final_generated_data.json",
+    "output_dir": "../../data/tasks/single-sentence/sampling_method/80-20"
+  },
+  "task_results": {
+    "Dynamic Paraphrase Source Attribution without Context": {
+      "status": "success",
+      "output_file": "../../data/tasks/single-sentence/sampling_method/80-20/task1/dynamic_task1_paraphrase_source_without_context.json",
+      "report_file": "../../data/tasks/single-sentence/sampling_method/80-20/task1/dynamic_task1_paraphrase_source_without_context.report.json",
+      "processing_time": 0.03673195838928223,
+      "statistics": {
+        "total_samples": 16233,
+        "label_0_count": 3247,
+        "label_1_count": 12986,
+        "label_0_ratio": 0.2000246411630629,
+        "label_1_ratio": 0.7999753588369372,
+        "target_label_1_ratio": 0.8,
+        "text_type_counts": {
+          "type4": 12986,
+          "type3": 3247
+        }
+      }
+    },
+    "Dynamic General Text Authorship Detection": {
+      "status": "success",
+      "output_file": "../../data/tasks/single-sentence/sampling_method/80-20/task2/dynamic_task2_general_text_authorship_detection.json",
+      "report_file": "../../data/tasks/single-sentence/sampling_method/80-20/task2/dynamic_task2_general_text_authorship_detection.report.json",
+      "processing_time": 0.04631209373474121,
+      "statistics": {
+        "total_samples": 16233,
+        "label_0_count": 3247,
+        "label_1_count": 12986,
+        "label_0_ratio": 0.2000246411630629,
+        "label_1_ratio": 0.7999753588369372,
+        "target_label_1_ratio": 0.8,
+        "text_type_counts": {
+          "type2": 12986,
+          "type1": 3247
+        }
+      }
+    },
+    "Dynamic AI Text Laundering Detection": {
+      "status": "success",
+      "output_file": "../../data/tasks/single-sentence/sampling_method/80-20/task3/dynamic_task3_ai_text_laundering_detection.json",
+      "report_file": "../../data/tasks/single-sentence/sampling_method/80-20/task3/dynamic_task3_ai_text_laundering_detection.report.json",
+      "processing_time": 0.03624582290649414,
+      "statistics": {
+        "total_samples": 16233,
+        "label_0_count": 3247,
+        "label_1_count": 12986,
+        "label_0_ratio": 0.2000246411630629,
+        "label_1_ratio": 0.7999753588369372,
+        "target_label_1_ratio": 0.8,
+        "text_type_counts": {
+          "type5_1st": 12986,
+          "type4": 3247
+        }
+      }
+    },
+    "Dynamic Iterative Paraphrase Depth Detection": {
+      "status": "success",
+      "output_file": "../../data/tasks/single-sentence/sampling_method/80-20/task4/dynamic_task4_iterative_paraphrase_depth_detection.json",
+      "report_file": "../../data/tasks/single-sentence/sampling_method/80-20/task4/dynamic_task4_iterative_paraphrase_depth_detection.report.json",
+      "processing_time": 0.03493189811706543,
+      "statistics": {
+        "total_samples": 16233,
+        "label_0_count": 3247,
+        "label_1_count": 12986,
+        "label_0_ratio": 0.2000246411630629,
+        "label_1_ratio": 0.7999753588369372,
+        "target_label_1_ratio": 0.8,
+        "text_type_counts": {
+          "type5_3rd": 12986,
+          "type5_1st": 3247
+        }
+      }
+    },
+    "Dynamic Original vs Deep Paraphrase Attack Detection": {
+      "status": "success",
+      "output_file": "../../data/tasks/single-sentence/sampling_method/80-20/task5/dynamic_task5_original_vs_deep_paraphrase_attack.json",
+      "report_file": "../../data/tasks/single-sentence/sampling_method/80-20/task5/dynamic_task5_original_vs_deep_paraphrase_attack.report.json",
+      "processing_time": 0.03756117820739746,
+      "statistics": {
+        "total_samples": 16233,
+        "label_0_count": 3247,
+        "label_1_count": 12986,
+        "label_0_ratio": 0.2000246411630629,
+        "label_1_ratio": 0.7999753588369372,
+        "target_label_1_ratio": 0.8,
+        "text_type_counts": {
+          "type5_3rd": 12986,
+          "type1": 3247
+        }
+      }
+    }
+  }
+}

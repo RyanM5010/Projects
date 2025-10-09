@@ -1,0 +1,126 @@
+{
+  "hidden_states": {
+    "type1": [
+      {
+        "comparison": "1-2",
+        "cosine_distance": 0.011810302734375,
+        "euclidean_distance": 19.78125,
+        "manhattan_distance": 595.0,
+        "num_samples": 100
+      },
+      {
+        "comparison": "1-3",
+        "cosine_distance": 0.01122283935546875,
+        "euclidean_distance": 18.890625,
+        "manhattan_distance": 566.5,
+        "num_samples": 100
+      },
+      {
+        "comparison": "1-4",
+        "cosine_distance": 0.0216827392578125,
+        "euclidean_distance": 22.953125,
+        "manhattan_distance": 677.5,
+        "num_samples": 100
+      },
+      {
+        "comparison": "1-5",
+        "cosine_distance": 0.01416778564453125,
+        "euclidean_distance": 21.390625,
+        "manhattan_distance": 643.5,
+        "num_samples": 100
+      }
+    ],
+    "type2": [
+      {
+        "comparison": "1-2",
+        "cosine_distance": 0.0105133056640625,
+        "euclidean_distance": 19.390625,
+        "manhattan_distance": 574.0,
+        "num_samples": 100
+      },
+      {
+        "comparison": "1-3",
+        "cosine_distance": 0.01145172119140625,
+        "euclidean_distance": 18.921875,
+        "manhattan_distance": 562.0,
+        "num_samples": 100
+      },
+      {
+        "comparison": "1-4",
+        "cosine_distance": 0.013916015625,
+        "euclidean_distance": 22.46875,
+        "manhattan_distance": 670.0,
+        "num_samples": 100
+      },
+      {
+        "comparison": "1-5",
+        "cosine_distance": 0.01357269287109375,
+        "euclidean_distance": 22.015625,
+        "manhattan_distance": 654.5,
+        "num_samples": 100
+      }
+    ]
+  },
+  "embeddings": {
+    "type1": [
+      {
+        "comparison": "1-2",
+        "cosine_distance": 0.047597800156109316,
+        "euclidean_distance": 0.29091673311530797,
+        "manhattan_distance": 7.354985547059894,
+        "num_samples": 100
+      },
+      {
+        "comparison": "1-3",
+        "cosine_distance": 0.05383558281245776,
+        "euclidean_distance": 0.29600485848957037,
+        "manhattan_distance": 7.488659752800409,
+        "num_samples": 100
+      },
+      {
+        "comparison": "1-4",
+        "cosine_distance": 0.07152216454769608,
+        "euclidean_distance": 0.3563358101599297,
+        "manhattan_distance": 9.01042950085671,
+        "num_samples": 100
+      },
+      {
+        "comparison": "1-5",
+        "cosine_distance": 0.07442962309418089,
+        "euclidean_distance": 0.35418732885031906,
+        "manhattan_distance": 8.964158661908636,
+        "num_samples": 100
+      }
+    ],
+    "type2": [
+      {
+        "comparison": "1-2",
+        "cosine_distance": 0.046671636261617494,
+        "euclidean_distance": 0.2886961828453356,
+        "manhattan_distance": 7.307686996246581,
+        "num_samples": 100
+      },
+      {
+        "comparison": "1-3",
+        "cosine_distance": 0.04951044832271368,
+        "euclidean_distance": 0.2890308345815526,
+        "manhattan_distance": 7.328746686999026,
+        "num_samples": 100
+      },
+      {
+        "comparison": "1-4",
+        "cosine_distance": 0.06809404297467689,
+        "euclidean_distance": 0.3498825127449501,
+        "manhattan_distance": 8.865106994993418,
+        "num_samples": 100
+      },
+      {
+        "comparison": "1-5",
+        "cosine_distance": 0.06827336383683347,
+        "euclidean_distance": 0.34733062070709436,
+        "manhattan_distance": 8.804333712021457,
+        "num_samples": 100
+      }
+    ]
+  }
+}

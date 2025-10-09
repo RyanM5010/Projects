@@ -1,0 +1,72 @@
+{
+  "task_name": "task3: AI Text Laundering Detection",
+  "task_description": "AI Text Laundering Detection",
+  "task_file": "../../../tasks/single-sentence/sampling_method/80-20/task3/dynamic_task3_ai_text_laundering_detection.json",
+  "total_samples": 16233,
+  "evaluation_time_seconds": 155.27553582191467,
+  "samples_per_second": 104.54319100606813,
+  "detector_threshold": 0.9015310749276843,
+  "detector_mode": "accuracy",
+  "label_distribution": {
+    "human_count": 3247,
+    "ai_count": 12986,
+    "human_percentage": 20.00246411630629,
+    "ai_percentage": 79.99753588369371
+  },
+  "accuracy": 0.2830037577773671,
+  "precision_human": 0.20096921322690992,
+  "precision_ai": 0.8059972739663789,
+  "recall_human": 0.8684939944564213,
+  "recall_ai": 0.13660865547512707,
+  "f1_human": 0.32640777822790673,
+  "f1_ai": 0.23362085994600645,
+  "macro_precision": 0.5034832435966444,
+  "macro_recall": 0.5025513249657741,
+  "macro_f1": 0.2800143190869566,
+  "roc_auc": 0.5067925961914589,
+  "tpr_at_1_fpr": 0.006699522562759895,
+  "tpr_at_5_fpr": 0.0576774988449099,
+  "tpr_at_10_fpr": 0.10565224087478824,
+  "confusion_matrix": [
+    [
+      2820,
+      427
+    ],
+    [
+      11212,
+      1774
+    ]
+  ],
+  "classification_report": {
+    "Human": {
+      "precision": 0.20096921322690992,
+      "recall": 0.8684939944564213,
+      "f1-score": 0.32640777822790673,
+      "support": 3247.0
+    },
+    "AI": {
+      "precision": 0.8059972739663789,
+      "recall": 0.13660865547512707,
+      "f1-score": 0.23362085994600645,
+      "support": 12986.0
+    },
+    "accuracy": 0.2830037577773671,
+    "macro avg": {
+      "precision": 0.5034832435966444,
+      "recall": 0.5025513249657741,
+      "f1-score": 0.2800143190869566,
+      "support": 16233.0
+    },
+    "weighted avg": {
+      "precision": 0.6849767532233828,
+      "recall": 0.2830037577773671,
+      "f1-score": 0.25218052997997,
+      "support": 16233.0
+    }
+  },
+  "task_id": "task3",
+  "model_size": "large",
+  "method": "sampling_method",
+  "ratio": "80-20",
+  "challenge_type": "single-sentence"
+}

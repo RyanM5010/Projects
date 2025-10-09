@@ -1,0 +1,72 @@
+{
+  "task_name": "task2: General Text Authorship Detection",
+  "task_description": "General Text Authorship Detection",
+  "task_file": "../../../tasks/single-sentence/sampling_method/50-50/task2/dynamic_task2_general_text_authorship_detection.json",
+  "total_samples": 16233,
+  "evaluation_time_seconds": 167.4527566432953,
+  "samples_per_second": 96.940774970813,
+  "detector_threshold": 0.9015310749276843,
+  "detector_mode": "accuracy",
+  "label_distribution": {
+    "human_count": 8117,
+    "ai_count": 8116,
+    "human_percentage": 50.00308014538286,
+    "ai_percentage": 49.99691985461714
+  },
+  "accuracy": 0.5555966241606604,
+  "precision_human": 0.5349647641911253,
+  "precision_ai": 0.6358433734939759,
+  "recall_human": 0.8510533448318344,
+  "recall_ai": 0.2601034992607196,
+  "f1_human": 0.6569662387066096,
+  "f1_ai": 0.3691850297306751,
+  "macro_precision": 0.5854040688425506,
+  "macro_recall": 0.5555784220462769,
+  "macro_f1": 0.5130756342186423,
+  "roc_auc": 0.5834091836292934,
+  "tpr_at_1_fpr": 0.03191227205519961,
+  "tpr_at_5_fpr": 0.11163134549038936,
+  "tpr_at_10_fpr": 0.19406111384918678,
+  "confusion_matrix": [
+    [
+      6908,
+      1209
+    ],
+    [
+      6005,
+      2111
+    ]
+  ],
+  "classification_report": {
+    "Human": {
+      "precision": 0.5349647641911253,
+      "recall": 0.8510533448318344,
+      "f1-score": 0.6569662387066096,
+      "support": 8117.0
+    },
+    "AI": {
+      "precision": 0.6358433734939759,
+      "recall": 0.2601034992607196,
+      "f1-score": 0.3691850297306751,
+      "support": 8116.0
+    },
+    "accuracy": 0.5555966241606604,
+    "macro avg": {
+      "precision": 0.5854040688425506,
+      "recall": 0.5555784220462769,
+      "f1-score": 0.5130756342186423,
+      "support": 16233.0
+    },
+    "weighted avg": {
+      "precision": 0.5854009616347239,
+      "recall": 0.5555966241606604,
+      "f1-score": 0.5130844982982633,
+      "support": 16233.0
+    }
+  },
+  "task_id": "task2",
+  "model_size": "large",
+  "method": "sampling_method",
+  "ratio": "50-50",
+  "challenge_type": "single-sentence"
+}

@@ -1,0 +1,2 @@
+model,task,accuracy,precision,recall,f1,auroc,tpr_1_fpr,tpr_5_fpr,tpr_10_fpr,total_samples,errors,payment_errors
+WizardLM-2-8x22B,task1_sampling_70_30,0.547,0.5860691477648095,0.547,0.5617830393076619,0.5075396825396825,0.010382910116888352,0.05191455058444176,0.10382910116888353,3000,0,0

@@ -1,0 +1,70 @@
+{
+  "task_name": "task5: Original vs Deep Paraphrase Attack (Sentence-Pair)",
+  "task_description": "Original vs Deep Paraphrase Attack - Sentence Pair Detection",
+  "task_file": "../../../tasks/sentence-pair/task5/temp_task5_original_vs_deep_paraphrase_attack_sentence_pair.json",
+  "total_samples": 16233,
+  "evaluation_time_seconds": 548.6767857074738,
+  "samples_per_second": 29.585724096325446,
+  "detector_threshold": 0.9015310749276843,
+  "detector_mode": "accuracy",
+  "label_distribution": {
+    "human_count": 8081,
+    "ai_count": 8152,
+    "human_percentage": 49.78130967781679,
+    "ai_percentage": 50.2186903221832
+  },
+  "accuracy": 0.48801823446066656,
+  "precision_human": 0.4925198386886952,
+  "precision_ai": 0.4074505238649593,
+  "recall_human": 0.9370127459472838,
+  "recall_ai": 0.0429342492639843,
+  "f1_human": 0.6456619057770199,
+  "f1_ai": 0.0776828320941072,
+  "macro_precision": 0.44998518127682724,
+  "macro_recall": 0.489973497605634,
+  "macro_f1": 0.36167236893556354,
+  "roc_auc": 0.45739715210529697,
+  "tpr_at_1_fpr": 0.006133464180569185,
+  "tpr_at_5_fpr": 0.0323846908734053,
+  "tpr_at_10_fpr": 0.06967615309126594,
+  "confusion_matrix": [
+    [
+      7572,
+      509
+    ],
+    [
+      7802,
+      350
+    ]
+  ],
+  "classification_report": {
+    "Human": {
+      "precision": 0.4925198386886952,
+      "recall": 0.9370127459472838,
+      "f1-score": 0.6456619057770199,
+      "support": 8081.0
+    },
+    "AI": {
+      "precision": 0.4074505238649593,
+      "recall": 0.0429342492639843,
+      "f1-score": 0.0776828320941072,
+      "support": 8152.0
+    },
+    "accuracy": 0.48801823446066656,
+    "macro avg": {
+      "precision": 0.44998518127682724,
+      "recall": 0.489973497605634,
+      "f1-score": 0.36167236893556354,
+      "support": 16233.0
+    },
+    "weighted avg": {
+      "precision": 0.44979914291816014,
+      "recall": 0.48801823446066656,
+      "f1-score": 0.36043025366939313,
+      "support": 16233.0
+    }
+  },
+  "task_id": "task5",
+  "model_size": "large",
+  "challenge_type": "sentence-pair"
+}

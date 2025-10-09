@@ -1,0 +1,2 @@
+model,task,accuracy,precision,recall,f1,auroc,tpr_1_fpr,tpr_5_fpr,tpr_10_fpr,total_samples,errors,payment_errors
+Kimi-K2-Instruct,task4_sampling_70_30,0.687,0.606795980563535,0.687,0.6014121385521649,0.510079365079365,0.014233333333333336,0.06777777777777778,0.06777777777777778,3000,0,0

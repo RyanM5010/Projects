@@ -1,0 +1,94 @@
+================================================================================
+TYPE1 VS ORIGINAL TYPE2 ANALYSIS SUMMARY
+================================================================================
+
+EXPERIMENT CONFIGURATION:
+  - Maximum iterations analyzed: 10
+  - Number of samples per iteration: 100
+  - Embedding model: baai/bge-m3
+  - Data source: ../../data/test/final_generated_data.json
+
+DISTANCE STATISTICS:
+
+Overall Statistics:
+  Cosine Distance:
+    - Mean: 0.697491
+    - Std:  0.001104
+    - Min:  0.696021 (Iteration 3)
+    - Max:  0.699824 (Iteration 1)
+
+  Euclidean Distance:
+    - Mean: 1.179914
+    - Std:  0.000955
+    - Min:  1.178590 (Iteration 3)
+    - Max:  1.181930 (Iteration 1)
+
+  Manhattan Distance:
+    - Mean: 29.882677
+    - Std:  0.019870
+    - Min:  29.853649 (Iteration 9)
+    - Max:  29.923559 (Iteration 1)
+
+PER-ITERATION DETAILS:
+
+Iteration 1:
+  - Cosine:    0.699824 ± 0.060334
+  - Euclidean: 1.181930 ± 0.051855
+  - Manhattan: 29.923559 ± 1.314191
+  - Samples:   100
+
+Iteration 2:
+  - Cosine:    0.697681 ± 0.059738
+  - Euclidean: 1.180138 ± 0.051325
+  - Manhattan: 29.890561 ± 1.331515
+  - Samples:   100
+
+Iteration 3:
+  - Cosine:    0.696021 ± 0.063238
+  - Euclidean: 1.178590 ± 0.054470
+  - Manhattan: 29.862321 ± 1.400277
+  - Samples:   100
+
+Iteration 4:
+  - Cosine:    0.697150 ± 0.061169
+  - Euclidean: 1.179628 ± 0.052702
+  - Manhattan: 29.887536 ± 1.354922
+  - Samples:   100
+
+Iteration 5:
+  - Cosine:    0.696498 ± 0.061736
+  - Euclidean: 1.179060 ± 0.053042
+  - Manhattan: 29.866002 ± 1.371177
+  - Samples:   100
+
+Iteration 6:
+  - Cosine:    0.696978 ± 0.061270
+  - Euclidean: 1.179483 ± 0.052690
+  - Manhattan: 29.878185 ± 1.333013
+  - Samples:   100
+
+Iteration 7:
+  - Cosine:    0.697259 ± 0.061743
+  - Euclidean: 1.179707 ± 0.053004
+  - Manhattan: 29.871758 ± 1.351914
+  - Samples:   100
+
+Iteration 8:
+  - Cosine:    0.698874 ± 0.061138
+  - Euclidean: 1.181095 ± 0.052558
+  - Manhattan: 29.904627 ± 1.349931
+  - Samples:   100
+
+Iteration 9:
+  - Cosine:    0.696556 ± 0.061155
+  - Euclidean: 1.179137 ± 0.052437
+  - Manhattan: 29.853649 ± 1.354631
+  - Samples:   100
+
+Iteration 10:
+  - Cosine:    0.698069 ± 0.062095
+  - Euclidean: 1.180375 ± 0.053402
+  - Manhattan: 29.888572 ± 1.383371
+  - Samples:   100
+
+================================================================================

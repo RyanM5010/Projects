@@ -1,0 +1,2 @@
+model,task,accuracy,precision,recall,f1,auroc,tpr_1_fpr,tpr_5_fpr,tpr_10_fpr,total_samples,errors,payment_errors
+Mistral-Nemo,task5_sampling_20_80,0.217,0.5635037443423991,0.217,0.13010774964919525,0.47562499999999996,0.004776785714285714,0.023883928571428573,0.044583333333333336,3000,0,0

@@ -1,0 +1,67 @@
+{
+  "model_size": "large",
+  "challenge_type": "single-sentence",
+  "method": "sampling_method",
+  "ratio": "30-70",
+  "evaluation_timestamp": "2025-10-01 06:08:27",
+  "total_tasks": 5,
+  "successful_tasks": 5,
+  "failed_tasks": 0,
+  "task_results": {
+    "task1": {
+      "accuracy": 0.6250231010903715,
+      "macro_f1": 0.46540897434932604,
+      "roc_auc": 0.43728233393183713,
+      "tpr_at_1_fpr": 0.010269049086054631,
+      "tpr_at_5_fpr": 0.046416101868966934,
+      "tpr_at_10_fpr": 0.08133086876155268,
+      "total_samples": 16233,
+      "evaluation_time_seconds": 163.3612744808197,
+      "samples_per_second": 99.3687154534652
+    },
+    "task2": {
+      "accuracy": 0.6701780324031295,
+      "macro_f1": 0.549761372934289,
+      "roc_auc": 0.574870151290094,
+      "tpr_at_1_fpr": 0.0306017662764428,
+      "tpr_at_5_fpr": 0.10946806325734237,
+      "tpr_at_10_fpr": 0.18812897925652083,
+      "total_samples": 16233,
+      "evaluation_time_seconds": 170.1660659313202,
+      "samples_per_second": 95.39504783845513
+    },
+    "task3": {
+      "accuracy": 0.6470153391240067,
+      "macro_f1": 0.47831940974990045,
+      "roc_auc": 0.4950903481131734,
+      "tpr_at_1_fpr": 0.008009858287122612,
+      "tpr_at_5_fpr": 0.04970219757650442,
+      "tpr_at_10_fpr": 0.09591291846375026,
+      "total_samples": 16233,
+      "evaluation_time_seconds": 159.18771052360535,
+      "samples_per_second": 101.97395230200807
+    },
+    "task4": {
+      "accuracy": 0.6441200024641163,
+      "macro_f1": 0.4776510144941615,
+      "roc_auc": 0.4857853552588556,
+      "tpr_at_1_fpr": 0.009858287122612447,
+      "tpr_at_5_fpr": 0.051345245430273155,
+      "tpr_at_10_fpr": 0.09755596631751899,
+      "total_samples": 16233,
+      "evaluation_time_seconds": 155.13345313072205,
+      "samples_per_second": 104.63893939317772
+    },
+    "task5": {
+      "accuracy": 0.6336475081623852,
+      "macro_f1": 0.4715772558536244,
+      "roc_auc": 0.4287908767613624,
+      "tpr_at_1_fpr": 0.008009858287122612,
+      "tpr_at_5_fpr": 0.04990757855822551,
+      "tpr_at_10_fpr": 0.09036763195728076,
+      "total_samples": 16233,
+      "evaluation_time_seconds": 169.14364075660706,
+      "samples_per_second": 95.97168375581339
+    }
+  }
+}

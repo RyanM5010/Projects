@@ -1,0 +1,21 @@
+{
+  "task_name": "Dynamic Iterative Paraphrase Depth Detection",
+  "timestamp": "2025-09-20 17:01:11",
+  "config": {
+    "random_seed": 42,
+    "label_1_ratio": 0.8,
+    "min_text_length": 5
+  },
+  "statistics": {
+    "total_samples": 16233,
+    "label_0_count": 3247,
+    "label_1_count": 12986,
+    "label_0_ratio": 0.2000246411630629,
+    "label_1_ratio": 0.7999753588369372,
+    "target_label_1_ratio": 0.8,
+    "text_type_counts": {
+      "type5_3rd": 12986,
+      "type5_1st": 3247
+    }
+  }
+}

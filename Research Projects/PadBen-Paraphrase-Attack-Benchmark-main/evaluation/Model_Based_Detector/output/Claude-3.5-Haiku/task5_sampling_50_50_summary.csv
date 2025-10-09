@@ -1,0 +1,2 @@
+model,task,accuracy,precision,recall,f1,auroc,tpr_1_fpr,tpr_5_fpr,tpr_10_fpr,total_samples,errors,payment_errors
+Claude-3.5-Haiku,task5_sampling_50_50,0.5446666666666666,0.6778144218996596,0.5446666666666666,0.4397962816033911,0.5446666666666667,0.04941176470588235,0.112,0.112,3000,0,0

@@ -1,0 +1,72 @@
+{
+  "task_name": "task1: Paraphrase Source Attribution without Context",
+  "task_description": "Paraphrase Source Attribution without Context",
+  "task_file": "../../../tasks/single-sentence/sampling_method/80-20/task1/dynamic_task1_paraphrase_source_without_context.json",
+  "total_samples": 16233,
+  "evaluation_time_seconds": 162.647887468338,
+  "samples_per_second": 99.80455481267785,
+  "detector_threshold": 0.9015310749276843,
+  "detector_mode": "accuracy",
+  "label_distribution": {
+    "human_count": 3247,
+    "ai_count": 12986,
+    "human_percentage": 20.00246411630629,
+    "ai_percentage": 79.99753588369371
+  },
+  "accuracy": 0.2741945419823816,
+  "precision_human": 0.19559169698266637,
+  "precision_ai": 0.7719060523938572,
+  "recall_human": 0.8444718201416692,
+  "recall_ai": 0.13160326505467426,
+  "f1_human": 0.3176184408664427,
+  "f1_ai": 0.22486842105263158,
+  "macro_precision": 0.4837488746882618,
+  "macro_recall": 0.4880375425981717,
+  "macro_f1": 0.2712434309595371,
+  "roc_auc": 0.4527153000902965,
+  "tpr_at_1_fpr": 0.01001078084090559,
+  "tpr_at_5_fpr": 0.04882180810103188,
+  "tpr_at_10_fpr": 0.08701678730941013,
+  "confusion_matrix": [
+    [
+      2742,
+      505
+    ],
+    [
+      11277,
+      1709
+    ]
+  ],
+  "classification_report": {
+    "Human": {
+      "precision": 0.19559169698266637,
+      "recall": 0.8444718201416692,
+      "f1-score": 0.3176184408664427,
+      "support": 3247.0
+    },
+    "AI": {
+      "precision": 0.7719060523938572,
+      "recall": 0.13160326505467426,
+      "f1-score": 0.22486842105263158,
+      "support": 12986.0
+    },
+    "accuracy": 0.2741945419823816,
+    "macro avg": {
+      "precision": 0.4837488746882618,
+      "recall": 0.4880375425981717,
+      "f1-score": 0.2712434309595371,
+      "support": 16233.0
+    },
+    "weighted avg": {
+      "precision": 0.6566289802556119,
+      "recall": 0.2741945419823816,
+      "f1-score": 0.2434207104837561,
+      "support": 16233.0
+    }
+  },
+  "task_id": "task1",
+  "model_size": "large",
+  "method": "sampling_method",
+  "ratio": "80-20",
+  "challenge_type": "single-sentence"
+}

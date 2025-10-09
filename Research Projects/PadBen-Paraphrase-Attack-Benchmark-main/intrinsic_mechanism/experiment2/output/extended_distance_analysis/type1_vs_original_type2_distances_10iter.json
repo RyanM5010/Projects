@@ -1,0 +1,121 @@
+{
+  "type1_vs_original_type2": [
+    {
+      "iteration": 1,
+      "comparison": "type1_1_vs_original_type2",
+      "cosine_distance": 0.6998240826909516,
+      "euclidean_distance": 1.1819303121822884,
+      "manhattan_distance": 29.923558656751116,
+      "num_samples": 100,
+      "cosine_std": 0.0603337766849137,
+      "euclidean_std": 0.05185462307630062,
+      "manhattan_std": 1.314191155671038
+    },
+    {
+      "iteration": 2,
+      "comparison": "type1_2_vs_original_type2",
+      "cosine_distance": 0.697680507944593,
+      "euclidean_distance": 1.1801384377120956,
+      "manhattan_distance": 29.890560661280347,
+      "num_samples": 100,
+      "cosine_std": 0.05973789086650729,
+      "euclidean_std": 0.051325290893543436,
+      "manhattan_std": 1.3315151003843793
+    },
+    {
+      "iteration": 3,
+      "comparison": "type1_3_vs_original_type2",
+      "cosine_distance": 0.6960209123594033,
+      "euclidean_distance": 1.178590208426185,
+      "manhattan_distance": 29.86232053498972,
+      "num_samples": 100,
+      "cosine_std": 0.06323820386289457,
+      "euclidean_std": 0.054469686498617075,
+      "manhattan_std": 1.4002774149746815
+    },
+    {
+      "iteration": 4,
+      "comparison": "type1_4_vs_original_type2",
+      "cosine_distance": 0.6971500452090009,
+      "euclidean_distance": 1.1796281768283474,
+      "manhattan_distance": 29.88753587788434,
+      "num_samples": 100,
+      "cosine_std": 0.0611690399043388,
+      "euclidean_std": 0.052701580974814886,
+      "manhattan_std": 1.3549217142058798
+    },
+    {
+      "iteration": 5,
+      "comparison": "type1_5_vs_original_type2",
+      "cosine_distance": 0.6964982615604902,
+      "euclidean_distance": 1.1790602414472084,
+      "manhattan_distance": 29.866002463619814,
+      "num_samples": 100,
+      "cosine_std": 0.061735906352354174,
+      "euclidean_std": 0.05304214786465351,
+      "manhattan_std": 1.3711765609060689
+    },
+    {
+      "iteration": 6,
+      "comparison": "type1_6_vs_original_type2",
+      "cosine_distance": 0.6969782749213749,
+      "euclidean_distance": 1.1794830776855192,
+      "manhattan_distance": 29.878184922466662,
+      "num_samples": 100,
+      "cosine_std": 0.061270320969453916,
+      "euclidean_std": 0.05268980409197552,
+      "manhattan_std": 1.333012971139976
+    },
+    {
+      "iteration": 7,
+      "comparison": "type1_7_vs_original_type2",
+      "cosine_distance": 0.6972590672602847,
+      "euclidean_distance": 1.1797070243189418,
+      "manhattan_distance": 29.87175772141503,
+      "num_samples": 100,
+      "cosine_std": 0.061742735278179785,
+      "euclidean_std": 0.05300444918024174,
+      "manhattan_std": 1.3519142700786444
+    },
+    {
+      "iteration": 8,
+      "comparison": "type1_8_vs_original_type2",
+      "cosine_distance": 0.6988742966795455,
+      "euclidean_distance": 1.1810953622512506,
+      "manhattan_distance": 29.904626769663373,
+      "num_samples": 100,
+      "cosine_std": 0.06113770347516139,
+      "euclidean_std": 0.052558007130319134,
+      "manhattan_std": 1.3499313555789554
+    },
+    {
+      "iteration": 9,
+      "comparison": "type1_9_vs_original_type2",
+      "cosine_distance": 0.6965563764605021,
+      "euclidean_distance": 1.179136582732422,
+      "manhattan_distance": 29.853648910891923,
+      "num_samples": 100,
+      "cosine_std": 0.06115542890517998,
+      "euclidean_std": 0.05243730937265636,
+      "manhattan_std": 1.35463091638921
+    },
+    {
+      "iteration": 10,
+      "comparison": "type1_10_vs_original_type2",
+      "cosine_distance": 0.6980688128296805,
+      "euclidean_distance": 1.1803752851653944,
+      "manhattan_distance": 29.888571816925655,
+      "num_samples": 100,
+      "cosine_std": 0.06209511402049407,
+      "euclidean_std": 0.0534023832959651,
+      "manhattan_std": 1.3833712605117097
+    }
+  ],
+  "metadata": {
+    "max_iterations": 10,
+    "num_samples": 100,
+    "embedding_model": "baai/bge-m3",
+    "data_path": "../../data/test/final_generated_data.json",
+    "original_type2_embeddings_path": "../output/type1_vs_original_type2_analysis/original_type2_embeddings.npy"
+  }
+}

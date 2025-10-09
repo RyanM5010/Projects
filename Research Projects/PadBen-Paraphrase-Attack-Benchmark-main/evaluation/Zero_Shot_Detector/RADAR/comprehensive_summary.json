@@ -1,0 +1,185 @@
+{
+  "evaluation_info": {
+    "model_path": "TrustSafeAI/RADAR-Vicuna-7B",
+    "evaluation_timestamp": "2025-09-26 22:54:12",
+    "total_tasks": 5,
+    "total_samples": 81165,
+    "configuration": {
+      "model_path": "TrustSafeAI/RADAR-Vicuna-7B",
+      "device": "cuda",
+      "batch_size": 32,
+      "max_length": 512,
+      "tasks": [
+        "task1",
+        "task2",
+        "task3",
+        "task4",
+        "task5"
+      ],
+      "challenge": "sentence-pair",
+      "method": "exhaustive_method",
+      "ratio": "50-50"
+    }
+  },
+  "task_results": {
+    "task1": {
+      "task_name": "Task 1: Paraphrase Source Attribution without Context (Sentence Pair)",
+      "task_description": "Determine whether a paraphrased sentence was created by a human or LLM without context - Sentence pair comparison using probability differences",
+      "num_samples": 16233,
+      "metrics": {
+        "accuracy": 0.710897554364566,
+        "precision": 0.6807511737089202,
+        "recall": 0.7895062492265809,
+        "f1": 0.7311064000458374,
+        "auc_roc": 0.727522261719812,
+        "pr_auc": 0.6712248822097726,
+        "tpr_at_1_fpr": 0.0044548941962628385,
+        "tpr_at_5_fpr": 0.10512931567875264,
+        "tpr_at_10_fpr": 0.2455434457821871
+      },
+      "inference_time": 482.83311343193054,
+      "samples_per_second": 33.62031217083978
+    },
+    "task2": {
+      "task_name": "Task 2: General Text Authorship Detection (Sentence Pair)",
+      "task_description": "Distinguish between human-authored and LLM-generated original text - Sentence pair comparison using probability differences",
+      "num_samples": 16233,
+      "metrics": {
+        "accuracy": 0.8544323292059385,
+        "precision": 0.8082147477360931,
+        "recall": 0.9277317163717361,
+        "f1": 0.8638589618021547,
+        "auc_roc": 0.9097987756205904,
+        "pr_auc": 0.8931912933165403,
+        "tpr_at_1_fpr": 0.14164831085261725,
+        "tpr_at_5_fpr": 0.5657948564898054,
+        "tpr_at_10_fpr": 0.8091172227907762
+      },
+      "inference_time": 487.51211738586426,
+      "samples_per_second": 33.29763388660888
+    },
+    "task3": {
+      "task_name": "Task 3: AI Text Laundering Detection (Sentence Pair)",
+      "task_description": "Detect laundering of AI text through AI paraphrasing vs direct AI paraphrasing of human text - Sentence pair comparison using probability differences",
+      "num_samples": 16233,
+      "metrics": {
+        "accuracy": 0.6723341341711329,
+        "precision": 0.6260036496350365,
+        "recall": 0.8490285855710927,
+        "f1": 0.720655427761147,
+        "auc_roc": 0.7477862224588407,
+        "pr_auc": 0.7348447336288747,
+        "tpr_at_1_fpr": 0.05399084271748546,
+        "tpr_at_5_fpr": 0.2338571958915976,
+        "tpr_at_10_fpr": 0.3716696684785614
+      },
+      "inference_time": 483.93956661224365,
+      "samples_per_second": 33.54344451237376
+    },
+    "task4": {
+      "task_name": "Task 4: Iterative Paraphrase Depth Detection (Sentence Pair)",
+      "task_description": "Detect depth of iterative paraphrasing - shallow vs deep laundering of AI text - Sentence pair comparison using probability differences",
+      "num_samples": 16233,
+      "metrics": {
+        "accuracy": 0.5209141871496334,
+        "precision": 0.5118509278029003,
+        "recall": 0.8123994555129316,
+        "f1": 0.6280193236714976,
+        "auc_roc": 0.5258935260370982,
+        "pr_auc": 0.516199398331562,
+        "tpr_at_1_fpr": 0.010023511941591387,
+        "tpr_at_5_fpr": 0.055382687786165084,
+        "tpr_at_10_fpr": 0.11245468591160314
+      },
+      "inference_time": 482.5844130516052,
+      "samples_per_second": 33.637638433763755
+    },
+    "task5": {
+      "task_name": "Task 5: Original vs Deep Paraphrase Attack Detection (Sentence Pair)",
+      "task_description": "Distinguish human original text from the most sophisticated paraphrase attack - Sentence pair comparison using probability differences",
+      "num_samples": 16233,
+      "metrics": {
+        "accuracy": 0.8497505082239881,
+        "precision": 0.8032681143840035,
+        "recall": 0.9246380398465537,
+        "f1": 0.8596905022148076,
+        "auc_roc": 0.9088375879329736,
+        "pr_auc": 0.8893530228292091,
+        "tpr_at_1_fpr": 0.14010642247246627,
+        "tpr_at_5_fpr": 0.5424955503101194,
+        "tpr_at_10_fpr": 0.8082151118217873
+      },
+      "inference_time": 483.84112548828125,
+      "samples_per_second": 33.55026917899555
+    }
+  },
+  "performance_statistics": {
+    "overall_metrics": {
+      "accuracy": {
+        "mean": 0.7216657426230518,
+        "min": 0.5209141871496334,
+        "max": 0.8544323292059385,
+        "std": 0.12400275979810976
+      },
+      "f1": {
+        "mean": 0.7606661230990889,
+        "min": 0.6280193236714976,
+        "max": 0.8638589618021547,
+        "std": 0.09002710256988693
+      },
+      "auc_roc": {
+        "mean": 0.763967674753863,
+        "min": 0.5258935260370982,
+        "max": 0.9097987756205904,
+        "std": 0.141790979643513
+      },
+      "pr_auc": {
+        "mean": 0.7409626660631917,
+        "min": 0.516199398331562,
+        "max": 0.8931912933165403,
+        "std": 0.1418538452436466
+      }
+    },
+    "best_performance": {
+      "task": "Task 2: General Text Authorship Detection (Sentence Pair)",
+      "auc_roc": 0.9097987756205904,
+      "f1": 0.8638589618021547,
+      "accuracy": 0.8544323292059385
+    },
+    "worst_performance": {
+      "task": "Task 4: Iterative Paraphrase Depth Detection (Sentence Pair)",
+      "auc_roc": 0.5258935260370982,
+      "f1": 0.6280193236714976,
+      "accuracy": 0.5209141871496334
+    }
+  },
+  "task_difficulty_ranking": [
+    [
+      "Task 2: General Text Authorship Detection (Sentence Pair)",
+      0.9097987756205904
+    ],
+    [
+      "Task 5: Original vs Deep Paraphrase Attack Detection (Sentence Pair)",
+      0.9088375879329736
+    ],
+    [
+      "Task 3: AI Text Laundering Detection (Sentence Pair)",
+      0.7477862224588407
+    ],
+    [
+      "Task 1: Paraphrase Source Attribution without Context (Sentence Pair)",
+      0.727522261719812
+    ],
+    [
+      "Task 4: Iterative Paraphrase Depth Detection (Sentence Pair)",
+      0.5258935260370982
+    ]
+  ],
+  "robustness_analysis": {
+    "tpr_at_low_fpr": {
+      "mean_tpr_at_1_fpr": 0.07004479643608465,
+      "mean_tpr_at_5_fpr": 0.300531921231288,
+      "mean_tpr_at_10_fpr": 0.469400026956983
+    }
+  }
+}

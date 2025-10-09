@@ -1,0 +1,17 @@
+{
+  "type1_vs_type2": {
+    "cosine_similarity": 0.19500746655903264,
+    "euclidean": 0.6048285179052421,
+    "manhattan": 15.317800708926415
+  },
+  "type1_vs_type4": {
+    "cosine_similarity": 0.06781900050543767,
+    "euclidean": 0.35471578849823354,
+    "manhattan": 8.990868758732105
+  },
+  "type2_vs_type4": {
+    "cosine_similarity": 0.21367632715737817,
+    "euclidean": 0.6368412017743827,
+    "manhattan": 16.129287997298086
+  }
+}

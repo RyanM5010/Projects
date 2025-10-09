@@ -1,0 +1,72 @@
+{
+  "task_name": "task4: Iterative Paraphrase Depth Detection",
+  "task_description": "Iterative Paraphrase Depth Detection",
+  "task_file": "../../../tasks/single-sentence/sampling_method/80-20/task4/dynamic_task4_iterative_paraphrase_depth_detection.json",
+  "total_samples": 16233,
+  "evaluation_time_seconds": 152.9161422252655,
+  "samples_per_second": 106.15622238289706,
+  "detector_threshold": 0.9015310749276843,
+  "detector_mode": "accuracy",
+  "label_distribution": {
+    "human_count": 3247,
+    "ai_count": 12986,
+    "human_percentage": 20.00246411630629,
+    "ai_percentage": 79.99753588369371
+  },
+  "accuracy": 0.27887636296433194,
+  "precision_human": 0.20056637168141592,
+  "precision_ai": 0.8036053130929791,
+  "recall_human": 0.8724976901755467,
+  "recall_ai": 0.13044817495764668,
+  "f1_human": 0.32615703430808196,
+  "f1_ai": 0.2244600503511329,
+  "macro_precision": 0.5020858423871976,
+  "macro_recall": 0.5014729325665966,
+  "macro_f1": 0.27530854232960744,
+  "roc_auc": 0.4870720623014878,
+  "tpr_at_1_fpr": 0.015555213306637918,
+  "tpr_at_5_fpr": 0.059602649006622516,
+  "tpr_at_10_fpr": 0.10442014477129216,
+  "confusion_matrix": [
+    [
+      2833,
+      414
+    ],
+    [
+      11292,
+      1694
+    ]
+  ],
+  "classification_report": {
+    "Human": {
+      "precision": 0.20056637168141592,
+      "recall": 0.8724976901755467,
+      "f1-score": 0.32615703430808196,
+      "support": 3247.0
+    },
+    "AI": {
+      "precision": 0.8036053130929791,
+      "recall": 0.13044817495764668,
+      "f1-score": 0.2244600503511329,
+      "support": 12986.0
+    },
+    "accuracy": 0.27887636296433194,
+    "macro avg": {
+      "precision": 0.5020858423871976,
+      "recall": 0.5014729325665966,
+      "f1-score": 0.27530854232960744,
+      "support": 16233.0
+    },
+    "weighted avg": {
+      "precision": 0.6829826652297779,
+      "recall": 0.27887636296433194,
+      "f1-score": 0.24480195307448738,
+      "support": 16233.0
+    }
+  },
+  "task_id": "task4",
+  "model_size": "large",
+  "method": "sampling_method",
+  "ratio": "80-20",
+  "challenge_type": "single-sentence"
+}

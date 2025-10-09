@@ -1,0 +1,40 @@
+{
+  "pipeline_status": "completed",
+  "input_samples": 16233,
+  "total_output_samples": 162330,
+  "expansion_ratio": 10.0,
+  "tasks_processed": 5,
+  "tasks_failed": 0,
+  "task_results": {
+    "Paraphrase Source Attribution without Context": {
+      "output_file": "../../data/tasks/single-sentence/exhaustive_method/task1/task1_paraphrase_source_without_context.json",
+      "report_file": "../../data/tasks/single-sentence/exhaustive_method/task1/task1_paraphrase_source_without_context_report.json",
+      "sample_count": 32466,
+      "validation_status": "passed"
+    },
+    "General Text Authorship Detection": {
+      "output_file": "../../data/tasks/single-sentence/exhaustive_method/task2/task2_general_text_authorship_detection.json",
+      "report_file": "../../data/tasks/single-sentence/exhaustive_method/task2/task2_general_text_authorship_detection_report.json",
+      "sample_count": 32466,
+      "validation_status": "passed"
+    },
+    "AI Text Laundering Detection": {
+      "output_file": "../../data/tasks/single-sentence/exhaustive_method/task3/task3_ai_text_laundering_detection.json",
+      "report_file": "../../data/tasks/single-sentence/exhaustive_method/task3/task3_ai_text_laundering_detection_report.json",
+      "sample_count": 32466,
+      "validation_status": "passed"
+    },
+    "Iterative Paraphrase Depth Detection": {
+      "output_file": "../../data/tasks/single-sentence/exhaustive_method/task4/task4_iterative_paraphrase_depth_detection.json",
+      "report_file": "../../data/tasks/single-sentence/exhaustive_method/task4/task4_iterative_paraphrase_depth_detection_report.json",
+      "sample_count": 32466,
+      "validation_status": "passed"
+    },
+    "Original vs Deep Paraphrase Attack Detection": {
+      "output_file": "../../data/tasks/single-sentence/exhaustive_method/task5/task5_original_vs_deep_paraphrase_attack.json",
+      "report_file": "../../data/tasks/single-sentence/exhaustive_method/task5/task5_original_vs_deep_paraphrase_attack_report.json",
+      "sample_count": 32466,
+      "validation_status": "passed"
+    }
+  }
+}

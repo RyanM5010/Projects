@@ -1,0 +1,40 @@
+{
+  "pipeline_status": "completed",
+  "input_samples": 16233,
+  "total_output_samples": 81165,
+  "expansion_ratio": 5.0,
+  "tasks_successful": 5,
+  "tasks_failed": 0,
+  "task_results": {
+    "Paraphrase Source Attribution without Context (Sentence Pair)": {
+      "output_file": "../../data/tasks/sentence-pair/task1/task1_paraphrase_source_without_context_sentence_pair.json",
+      "report_file": "../../data/tasks/sentence-pair/task1/task1_paraphrase_source_without_context_sentence_pair_report.json",
+      "sample_count": 16233,
+      "status": "success"
+    },
+    "General Text Authorship Detection (Sentence Pair)": {
+      "output_file": "../../data/tasks/sentence-pair/task2/task2_general_text_authorship_detection_sentence_pair.json",
+      "report_file": "../../data/tasks/sentence-pair/task2/task2_general_text_authorship_detection_sentence_pair_report.json",
+      "sample_count": 16233,
+      "status": "success"
+    },
+    "AI Text Laundering Detection (Sentence Pair)": {
+      "output_file": "../../data/tasks/sentence-pair/task3/task3_ai_text_laundering_detection_sentence_pair.json",
+      "report_file": "../../data/tasks/sentence-pair/task3/task3_ai_text_laundering_detection_sentence_pair_report.json",
+      "sample_count": 16233,
+      "status": "success"
+    },
+    "Iterative Paraphrase Depth Detection (Sentence Pair)": {
+      "output_file": "../../data/tasks/sentence-pair/task4/task4_iterative_paraphrase_depth_detection_sentence_pair.json",
+      "report_file": "../../data/tasks/sentence-pair/task4/task4_iterative_paraphrase_depth_detection_sentence_pair_report.json",
+      "sample_count": 16233,
+      "status": "success"
+    },
+    "Original vs Deep Paraphrase Attack Detection (Sentence Pair)": {
+      "output_file": "../../data/tasks/sentence-pair/task5/task5_original_vs_deep_paraphrase_attack_sentence_pair.json",
+      "report_file": "../../data/tasks/sentence-pair/task5/task5_original_vs_deep_paraphrase_attack_sentence_pair_report.json",
+      "sample_count": 16233,
+      "status": "success"
+    }
+  }
+}

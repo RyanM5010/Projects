@@ -1,0 +1,72 @@
+{
+  "task_name": "task2: General Text Authorship Detection",
+  "task_description": "General Text Authorship Detection",
+  "task_file": "../../../tasks/single-sentence/exhaustive_method/task2/task2_general_text_authorship_detection.json",
+  "total_samples": 32466,
+  "evaluation_time_seconds": 621.4109432697296,
+  "samples_per_second": 52.245619990486404,
+  "detector_threshold": 0.9015310749276843,
+  "detector_mode": "accuracy",
+  "label_distribution": {
+    "human_count": 16233,
+    "ai_count": 16233,
+    "human_percentage": 50.0,
+    "ai_percentage": 50.0
+  },
+  "accuracy": 0.5520852584241976,
+  "precision_human": 0.5326813806965328,
+  "precision_ai": 0.6282031842304776,
+  "recall_human": 0.848949670424444,
+  "recall_ai": 0.2552208464239512,
+  "f1_human": 0.6546171385141554,
+  "f1_ai": 0.3629752934992115,
+  "macro_precision": 0.5804422824635052,
+  "macro_recall": 0.5520852584241976,
+  "macro_f1": 0.5087962160066835,
+  "roc_auc": 0.5786779581878111,
+  "tpr_at_1_fpr": 0.02852214624530278,
+  "tpr_at_5_fpr": 0.10601860407811249,
+  "tpr_at_10_fpr": 0.1841310909874946,
+  "confusion_matrix": [
+    [
+      13781,
+      2452
+    ],
+    [
+      12090,
+      4143
+    ]
+  ],
+  "classification_report": {
+    "Human": {
+      "precision": 0.5326813806965328,
+      "recall": 0.848949670424444,
+      "f1-score": 0.6546171385141554,
+      "support": 16233.0
+    },
+    "AI": {
+      "precision": 0.6282031842304776,
+      "recall": 0.2552208464239512,
+      "f1-score": 0.3629752934992115,
+      "support": 16233.0
+    },
+    "accuracy": 0.5520852584241976,
+    "macro avg": {
+      "precision": 0.5804422824635052,
+      "recall": 0.5520852584241976,
+      "f1-score": 0.5087962160066835,
+      "support": 32466.0
+    },
+    "weighted avg": {
+      "precision": 0.5804422824635053,
+      "recall": 0.5520852584241976,
+      "f1-score": 0.5087962160066835,
+      "support": 32466.0
+    }
+  },
+  "task_id": "task2",
+  "model_size": "large",
+  "method": "exhaustive_method",
+  "ratio": null,
+  "challenge_type": "single-sentence"
+}

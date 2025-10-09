@@ -1,0 +1,2 @@
+model,task,accuracy,precision,recall,f1,auroc,tpr_1_fpr,tpr_5_fpr,tpr_10_fpr,total_samples,errors,payment_errors
+DeepSeek-V2.5,task2_sampling_70_30,0.365,0.5507220493286512,0.365,0.33305965176976315,0.48198412698412696,0.0095554249902076,0.047777124951038,0.095554249902076,3000,0,0

@@ -1,0 +1,21 @@
+{
+  "task_name": "Dynamic AI Text Laundering Detection",
+  "timestamp": "2025-09-20 17:17:40",
+  "config": {
+    "random_seed": 42,
+    "label_1_ratio": 0.3,
+    "min_text_length": 5
+  },
+  "statistics": {
+    "total_samples": 16233,
+    "label_0_count": 11364,
+    "label_1_count": 4869,
+    "label_0_ratio": 0.7000554426168916,
+    "label_1_ratio": 0.2999445573831085,
+    "target_label_1_ratio": 0.3,
+    "text_type_counts": {
+      "type4": 11364,
+      "type5_1st": 4869
+    }
+  }
+}

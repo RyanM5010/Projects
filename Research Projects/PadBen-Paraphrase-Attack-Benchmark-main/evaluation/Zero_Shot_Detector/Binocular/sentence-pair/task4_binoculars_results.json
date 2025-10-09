@@ -1,0 +1,70 @@
+{
+  "task_name": "task4: Iterative Paraphrase Depth Detection (Sentence-Pair)",
+  "task_description": "Iterative Paraphrase Depth Detection - Sentence Pair Detection",
+  "task_file": "../../../tasks/sentence-pair/task4/temp_task4_iterative_paraphrase_depth_detection_sentence_pair.json",
+  "total_samples": 16233,
+  "evaluation_time_seconds": 518.4866137504578,
+  "samples_per_second": 31.30842642701818,
+  "detector_threshold": 0.9015310749276843,
+  "detector_mode": "accuracy",
+  "label_distribution": {
+    "human_count": 8081,
+    "ai_count": 8152,
+    "human_percentage": 49.78130967781679,
+    "ai_percentage": 50.2186903221832
+  },
+  "accuracy": 0.502433314852461,
+  "precision_human": 0.5001447596988998,
+  "precision_ai": 0.515515101365329,
+  "recall_human": 0.8550921915604505,
+  "recall_ai": 0.1528459273797841,
+  "f1_human": 0.6311366853906928,
+  "f1_ai": 0.23578389630050148,
+  "macro_precision": 0.5078299305321143,
+  "macro_recall": 0.5039690594701173,
+  "macro_f1": 0.4334602908455971,
+  "roc_auc": 0.49803258567358777,
+  "tpr_at_1_fpr": 0.01091756624141315,
+  "tpr_at_5_fpr": 0.05213444553483808,
+  "tpr_at_10_fpr": 0.10647693817468105,
+  "confusion_matrix": [
+    [
+      6910,
+      1171
+    ],
+    [
+      6906,
+      1246
+    ]
+  ],
+  "classification_report": {
+    "Human": {
+      "precision": 0.5001447596988998,
+      "recall": 0.8550921915604505,
+      "f1-score": 0.6311366853906928,
+      "support": 8081.0
+    },
+    "AI": {
+      "precision": 0.515515101365329,
+      "recall": 0.1528459273797841,
+      "f1-score": 0.23578389630050148,
+      "support": 8152.0
+    },
+    "accuracy": 0.502433314852461,
+    "macro avg": {
+      "precision": 0.5078299305321143,
+      "recall": 0.5039690594701173,
+      "f1-score": 0.4334602908455971,
+      "support": 16233.0
+    },
+    "weighted avg": {
+      "precision": 0.5078635439818254,
+      "recall": 0.502433314852461,
+      "f1-score": 0.4325956925573755,
+      "support": 16233.0
+    }
+  },
+  "task_id": "task4",
+  "model_size": "large",
+  "challenge_type": "sentence-pair"
+}
